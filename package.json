@@ -1,6 +1,8 @@
 {
+  "homepage": "https://aryankhatuwala.github.io/dice-roller-game",
   "name": "project",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "nanoid": "^3.3.6",
     "react": "18.2.0",
     "react-confetti": "6.0.1",
@@ -11,6 +13,7 @@
     "vite": "latest"
   },
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
